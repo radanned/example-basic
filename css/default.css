@@ -1,12 +1,26 @@
 body{
     font-size: 16px;
     color: #000000;
+		margin: 0px auto;
+		text-align: center;
+		background: #dedede;
+		font-family: "century gothic", arial, sans-serif;
+}
+
+#content {
+	width: 80%;
+	background: #ffffff;
+	border: 3px solid #2222a2;
+	border-radius: 6px;
+	-webkit-box-shadow: 3px 3px 3px 3px rgba(55,55,55,.45);
+	box-shadow: 3px 3px 3px 3px rgba(55,55,55,.45);
 }
 
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
     text-align: center;
     color: #333333;
+		font-family: Times, serif;
 }
 
 p{
